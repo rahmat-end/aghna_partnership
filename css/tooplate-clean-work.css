@@ -1111,6 +1111,12 @@ strong {
   padding: 30px;
 }
 
+@media(max-width: 767px) {
+  .featured-block > h2 {
+    margin-top: 30px;
+  }
+}
+
 .testimonial-section .featured-block h4,
 .testimonial-section .featured-block p {
   color: var(--dark-color);
@@ -1637,7 +1643,7 @@ strong {
 
   .team-info::before {
     border-top: 0;
-    border-bottom: 20px solid var(--white-color);
+    border-bottom: 20px solid var(--section-bg-color);
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     top: -20px;
